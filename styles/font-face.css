@@ -1,0 +1,18 @@
+
+@font-face{
+    font-family: 'AllerBold';
+    src: url('../fonts/Aller/AllerBold.woff2') format('woff2'),
+        url('../fonts/Aller/AllerBold.woff') format('woff'),
+        url('../fonts/Aller/AllerBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'AllerLight';
+    src: url('../fonts/Aller/AllerLight.woff2') format('woff2'),
+        url('../fonts/Aller/AllerLight.woff') format('woff'),
+        url('../fonts/Aller/AllerLight.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jkaros</title>
+  <link rel="stylesheet" href="styles/font-face.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -11,43 +12,46 @@
 
   <!-- Header -->
   <header class="header" id="header">
-    <div class="logo-box">
-      <img src="images/logo.png" alt="Logo">
+    <div class="wrapper">
+      <div class="logo-box">
+        <img src="images/logo.png" alt="Logo">
+      </div>
+  
+      <nav class="navbar">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Service</a>
+        <a href="#" class="nav-link">Portfolio</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Blog</a>
+        <a href="#" class="nav-link">Contact</a>
+      </nav>
     </div>
-
-    <nav class="navbar">
-      <a href="#" class="nav-link">Home</a>
-      <a href="#" class="nav-link">Service</a>
-      <a href="#" class="nav-link">Portfolio</a>
-      <a href="#" class="nav-link">About</a>
-      <a href="#" class="nav-link">Blog</a>
-      <a href="#" class="nav-link">Contact</a>
-    </nav>
   </header>
   <hr>
 
   <!-- Main Content -->
   <div class="wrapper">
 
-    <!-- Slider -->
+    <!--  Slider -->
     <div class="slider">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/bWNmJqgri4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/iPV5GKeHyV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 
     <!-- Our Seervises -->
     <section>
       <h3 class="section-header">Our Servises</h3>
-      <p class="subheader"></p>
+      <p class="subheader">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
       <div class="tabs">
         <div class="tabs-options">
-          <div></div>
-          <div></div>
-          <div></div>
+          <div class="active-tab">Web Design</div>
+          <div>Photography</div>
+          <div>Graphics</div>
         </div>
 
-        <div class="section-content">
-          <div>
-            <img src="" alt="">
+        <div class="tabs-content">
+          <div class="tab-1">
+            <img src="images/tab-img.png" alt="Eyes">
             <div>
               <h5></h5>
               <p class="text-regular"></p>
@@ -65,8 +69,8 @@
               </ul>
             </div>
           </div>
-          <div></div>
-          <div></div>
+          <div class="tab-2"></div>
+          <div class="tab-3"></div>
         </div>
       </div>
     </section>
@@ -75,8 +79,9 @@
 
     <!-- Latest Staff -->
     <section>
-      <h3 class="section-header">Our Servises</h3>
-      <p class="subheader"></p>
+      <h3 class="section-header">Latest Staff of Our Projects</h3>
+      <p class="subheader">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
       <div class="section-content">
         <img src="" alt="">
         <img src="" alt="">
@@ -91,8 +96,9 @@
 
     <!-- Latest Blog -->
     <section>
-      <h3 class="section-header">Our Servises</h3>
-      <p class="subheader"></p>
+      <h3 class="section-header">Latest Blog</h3>
+      <p class="subheader">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+
       <div class="section-content">
         <div class="post-container">
           <div class="post-date">
@@ -162,7 +168,8 @@
     <!-- Our Customers -->
     <section>
       <h3 class="section-header">Our Customers</h3>
-      <p class="subheader"></p>
+      <p class="subheader">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+
       <div class="section-content">
         <img src="" alt="">
         <img src="" alt="">
@@ -177,80 +184,83 @@
     <section>
         <h3 class="section-header">Our Location</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4272.669134455974!2d30.54028795349392!3d50.44958885728876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cfb2340a4fa7%3A0xf334fdfdf60beee1!2z0JzQvtGC0L7RiNC60L7Qu9CwINCR0LDQt9CwNDQ!5e0!3m2!1sru!2sua!4v1605032624451!5m2!1sru!2sua" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-      </section>
+    </section>
   </div>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer-content">
-      <div class="footer-column">
-        <h5 class="footer-header"></h5>
-        <ul class="posts-column">
-          <li class="footer-post">
-            <p class="text-regular_light"></p>
-            <p class="footer-post_date"><span>14</span><span>Nov</span>,<span>2012</span></p>
-          </li>
-          <li class="separator-line_light"></li>
-          <li class="footer-post">
-            <p class="text-regular_light"></p>
-            <p class="footer-post_date"><span>14</span><span>Nov</span>,<span>2012</span></p>
-          </li>
-          <li class="separator-line_light"></li>
-          <li class="footer-post">
-            <p class="text-regular_light"></p>
-            <p class="footer-post_date"><span>14</span><span>Nov</span>,<span>2012</span></p>
-          </li>
-        </ul>
-      </div>
-      <div class="footer-column">
-        <h5 class="footer-header"></h5>
-        <ul class="twitter-box">
-          <li>
-            <p class="text-regular_light"></p>
-            <a href="" class="twitter-link"></a>
-          </li>
-          <li class="separator-line_light"></li>
-          <li>
-            <p class="text-regular_light"></p>
-            <a href="" class="twitter-link"></a>
-          </li>
-          <li class="separator-line_light"></li>
-          <li>
-            <p class="text-regular_light"></p>
-            <a href="" class="twitter-link"></a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="footer-column">
-        <h5 class="footer-header"></h5>
-        <p class="text-regular_light"></p>
-        <p class="text-regular_light"></p>
-      </div>
-
-      <form action="#" class="footer-column">
-        <h5 class="footer-header"></h5>
-        <div>
-          <input type="text" class="footer-input">
-          <input type="text" class="footer-input">
-          <textarea name="" id="" cols="30" rows="10"></textarea>
-          <input type="submit">
+  <footer class="footer">
+    <div class="wrapper">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h5 class="footer-header"></h5>
+          <ul class="posts-column">
+            <li class="footer-post">
+              <p class="text-regular_light"></p>
+              <p class="footer-post_date"><span>14</span><span>Nov</span>,<span>2012</span></p>
+            </li>
+            <li class="separator-line_light"></li>
+            <li class="footer-post">
+              <p class="text-regular_light"></p>
+              <p class="footer-post_date"><span>14</span><span>Nov</span>,<span>2012</span></p>
+            </li>
+            <li class="separator-line_light"></li>
+            <li class="footer-post">
+              <p class="text-regular_light"></p>
+              <p class="footer-post_date"><span>14</span><span>Nov</span>,<span>2012</span></p>
+            </li>
+          </ul>
         </div>
-      </form>
-
-    </div>
-    <div class="footer-underbox">
-      <p class="copyright">2011 <a href="#">elemis</a></p>
-      <div class="social-box">
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
-        <a href=""><img src="" alt=""></a>
+        <div class="footer-column">
+          <h5 class="footer-header"></h5>
+          <ul class="twitter-box">
+            <li>
+              <p class="text-regular_light"></p>
+              <a href="" class="twitter-link"></a>
+            </li>
+            <li class="separator-line_light"></li>
+            <li>
+              <p class="text-regular_light"></p>
+              <a href="" class="twitter-link"></a>
+            </li>
+            <li class="separator-line_light"></li>
+            <li>
+              <p class="text-regular_light"></p>
+              <a href="" class="twitter-link"></a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="footer-column">
+          <h5 class="footer-header"></h5>
+          <p class="text-regular_light"></p>
+          <p class="text-regular_light"></p>
+        </div>
+  
+        <form action="#" class="footer-column">
+          <h5 class="footer-header"></h5>
+          <div>
+            <input type="text" class="footer-input">
+            <input type="text" class="footer-input">
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit">
+          </div>
+        </form>
+  
       </div>
-    </div>  
-  </footer>
+      <div class="footer-underbox">
+        <p class="copyright">2011 <a href="#">elemis</a></p>
+        <div class="social-box">
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+          <a href=""><img src="" alt=""></a>
+        </div>
+      </div>  
+    </footer>
+    </div>
+
 
 </body>
 </html>

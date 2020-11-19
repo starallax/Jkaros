@@ -1,10 +1,10 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'AllerBold', sans-serif;
 }
 
 hr{
-    margin: 1px 2px 3px 4px;
+    margin: 0px;
     border-color: black;
 }
 
@@ -23,21 +23,126 @@ hr{
 }
 .navbar{
     float: right;
+    display: flex;
+    border-left: 1px solid #292c2d;
+    border-right: 1px solid #424547;
 }
 
 .logo-box img{
     vertical-align: middle;
 }
-
-
 .nav-link{
     display: inline-block;
-    height: 90px;
+    height: 85px;
     color: #d4d4d4;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
-    padding: 0 14px;
+    padding: 10px 14px 0 14px;
+    box-sizing: border-box;
     border-right: 1px solid #292c2d;
     border-left: 1px solid #424547;
+    transition: .3s linear color, .3s linear background;
+}
+
+.nav-link:hover{
+    background: #35373a;
+    color: #7a9cb2;
+}
+
+.nav-link:active{
+    background: #2d2f31;
+    color: #476c84;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 1366px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.slider{
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+.slider iframe{
+    width: 100%;
+    height: 700px;
+}
+
+.section-header{
+    font-size: 30px;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subheader{
+    color: #555;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'AllerLight';
+}
+
+section{
+    margin-top: 50px;
+}
+
+.tabs{
+    width: 100%;
+}
+
+.tabs-options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.tabs-options > div{
+    width: 120px;
+    height: 34px;
+    border: 1px solid #c5c5c5;
+    border-bottom: none;
+    text-align: center;
+    line-height: 34px;
+    color: #555;
+    font-size: 13px;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+
+.tabs-options > div:first-child ~ div{
+    border: 1px solid #d7d7d7;
+    border-left: none;
+    border-bottom: none;
+}
+
+.tabs-options > .active-tab{
+    color: #6b99b6;
+    background-color: #fff;
+    border-bottom: 2px solid #fff;
+    margin-bottom: -2px;
+}
+
+.tabs-content{
+    margin-top: 30px;
+    width: 100%;
+}
+
+.tab-1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: #3a3d40;
+}
+
+.footer-content{
+    display: flex;
 }

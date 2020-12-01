@@ -16,3 +16,12 @@
     font-weight: lighter;
     font-style: normal;
 }
+
+@font-face{
+    font-family: 'DroidSans';
+    src: url('../fonts/DroidSans/DroidSans.woff2') format('woff2'),
+        url('../fonts/DroidSans/DroidSans.woff') format('woff'),
+        url('../fonts/DroidSans/DroidSans.ttf') format('truetype');
+    font-weight: lighter;
+    font-style: normal;
+}
